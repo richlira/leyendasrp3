@@ -14,14 +14,33 @@
         margin-top:unset;
         margin-bottom: unset;
 
+        @media (max-width: 425px) { 
+            flex-direction: column;
+        }
+
         li {
             display: inline-block;
             padding: 0 20px;
 
-    
+            @media (max-width: 425px) { 
+                padding: 5px;
+            }
+
             a {
                 cursor: pointer;
+                font-size: 25px;
                 transition: all 0.3s ease 0s;
+                @media (max-width: 1086px) { 
+                    font-size: 1rem;
+                }
+
+                @media (max-width: 950px) { 
+                    font-size: 25px;
+                }
+
+                @media (max-width: 425px) { 
+                    font-size: 15px;
+                }
             }
     
             a:hover {
@@ -44,13 +63,16 @@
             text-decoration: none;
             transition: all 0.3s ease 0s;
         }
+
+        @media (max-width: 952px) { 
+            display: none;
+         }
     }
 }
 
 li, a {
     color: #edf0f1;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
     font-weight: 500;
     text-decoration: none;
 }

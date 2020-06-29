@@ -1,0 +1,29 @@
+.rules {
+    align-items: center;
+    background-color: #cccccc;
+    background-image: url("/assets/rules-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+    &-center {
+        justify-content: center;
+    }
+
+    &-separation {
+        padding-bottom: 50px;
+    }
+
+    &-card {
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+    }
+
+    &-title {
+        color: white;
+        padding-bottom: 40px;
+        text-shadow: 2px 2px 5px grey;
+    }
+}
