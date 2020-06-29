@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
 
 import { StartModule } from './modules/start/start.module';
+import { RulesModule } from './modules/rules/rules.module';
+import { StaffModule } from './modules/staff/staff.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { StartModule } from './modules/start/start.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StartModule
+    StartModule,
+    RulesModule,
+    StaffModule
   ],
   providers: [],
   bootstrap: [AppComponent]
