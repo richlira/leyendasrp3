@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "leyendasrp3"
+    }
+  },
+  "defaultProject": "leyendasrp3",
+  "cli": {
+    "analytics": "021439ff-e739-4ada-94df-c6236ede4b4a"
+  }
 }

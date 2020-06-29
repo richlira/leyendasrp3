@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StartComponent implements OnInit {
 
-  constructor() { }
+  cover: string;
+
+  constructor() {
+    this.cover = "assets/cover.jpg";
+  }
 
   ngOnInit(): void {
   }
