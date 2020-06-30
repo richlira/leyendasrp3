@@ -81,12 +81,6 @@ export class StaffComponent implements OnInit {
     this.moderators = [
       {
         color: '#FD9405',
-        name: 'Adhemar',
-        pic: 'assets/citizen-card.png',
-        rol: rol.Moderador
-      },
-      {
-        color: '#FD9405',
         name: 'Beto',
         pic: 'assets/citizen-card.png',
         rol: rol.Moderador

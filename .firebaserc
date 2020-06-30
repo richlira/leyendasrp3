@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "leyendasrp": {
+      "hosting": {
+        "leyendasrp3": [
+          "leyendasrp"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "leyendasrp"
+  }
+}
