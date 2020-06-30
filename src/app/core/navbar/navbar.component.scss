@@ -67,6 +67,10 @@
             padding: 9px 25px;
             text-decoration: none;
             transition: all 0.3s ease 0s;
+
+            @media only screen and (max-width: 1200px) {
+                font-size: 20px;
+            }
         }
 
         @media (max-width: 952px) { 
