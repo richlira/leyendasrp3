@@ -1,19 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { faDiscord, faInstagram } from '@fortawesome/free-brands-svg-icons/';
 
 @Component({
   selector: 'start-component',
   templateUrl: './start.component.html',
   styleUrls: ['./start.component.scss']
 })
-export class StartComponent implements OnInit {
+export class StartComponent  {
 
-  cover: string;
+  faDiscord = faDiscord;
+  faInstagram = faInstagram;
 
-  constructor() {
-    this.cover = "assets/cover.jpg";
-  }
-
-  ngOnInit(): void {
-  }
 
 }

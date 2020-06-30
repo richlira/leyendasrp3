@@ -1,5 +1,5 @@
 <section class="rules">
-    <h1 class="rules-title">Reglamento</h1>
+    <h1 class="rules-title">Reglamentos de la Ciudad</h1>
     <div class="container">
         <div class="row rules-center">
           <div class="col-lg-4 col-md-6 col-sm-12	rules-separation" *ngFor="let rule of rules">
@@ -8,7 +8,7 @@
                 <div class="card-body">
                   <h5 class="card-title">{{ rule.title }}</h5>
                   <p class="card-text">{{ rule.description }}</p>
-                  <a href="https://bit.ly/NormativaGeneral-LeyendasRP" target="_blank" class="btn btn-primary">{{ rule.action }}</a>
+                  <a [href]="rule.url" target="_blank" class="btn btn-primary">{{ rule.action }}</a>
                 </div>
               </div>
           </div>

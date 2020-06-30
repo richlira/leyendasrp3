@@ -8,6 +8,7 @@ import { NavbarComponent } from './core/navbar/navbar.component';
 import { StartModule } from './modules/start/start.module';
 import { RulesModule } from './modules/rules/rules.module';
 import { StaffModule } from './modules/staff/staff.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { StaffModule } from './modules/staff/staff.module';
     AppRoutingModule,
     StartModule,
     RulesModule,
-    StaffModule
+    StaffModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

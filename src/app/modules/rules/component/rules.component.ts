@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RulesModel } from '../../../shared/models/rules.model';
 
 @Component({
@@ -6,7 +6,7 @@ import { RulesModel } from '../../../shared/models/rules.model';
   templateUrl: './rules.component.html',
   styleUrls: ['./rules.component.scss']
 })
-export class RulesComponent implements OnInit { 
+export class RulesComponent { 
   rules: RulesModel[];
 
   constructor() {
@@ -53,8 +53,4 @@ export class RulesComponent implements OnInit {
       }
     ]
   }
-
-  ngOnInit(): void {
-  }
-
 }
