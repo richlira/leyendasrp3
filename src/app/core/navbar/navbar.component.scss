@@ -47,6 +47,11 @@
                 color: #0088a9;
             }
         }
+
+        &-active {
+            color: white;
+            text-decoration: underline;
+        }
     }
 
     &-action {

@@ -3,17 +3,17 @@
   <nav>
     <ul class="navbar-links">
       <li>
-        <a [routerLink]="['']">
+        <a [routerLink]="['']" routerLinkActive="navbar-links-active" [routerLinkActiveOptions]="{exact: true}">
           Inicio
         </a>
       </li>
       <li>
-        <a [routerLink]="['/reglamentos']">
+        <a [routerLink]="['/reglamentos']" routerLinkActive="navbar-links-active">
           Reglamentos
         </a>
       </li>
       <li>
-        <a [routerLink]="['/staff']">
+        <a [routerLink]="['/staff']" routerLinkActive="navbar-links-active">
           Staff
         </a>
       </li>

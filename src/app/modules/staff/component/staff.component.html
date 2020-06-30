@@ -1,1 +1,60 @@
-<p>component works!</p>
+<section class="rules">
+    <h1 class="rules-title">Staff de la Ciudad</h1>
+    <div class="container">
+        <div class="row rules-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 rules-separation" *ngFor="let staff of founders">
+                <div class="card rules-card" style="width: 18rem;">
+                    <div class="rules-color" [ngStyle]="{'background-color': staff.color}"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ staff.name }}</h5>
+                        <p class="card-text">{{ staff.rol }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row rules-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 rules-separation" *ngFor="let staff of developers">
+                <div class="card rules-card" style="width: 18rem;">
+                    <div class="rules-color" [ngStyle]="{'background-color': staff.color}"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ staff.name }}</h5>
+                        <p class="card-text">{{ staff.rol }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row rules-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 rules-separation" *ngFor="let staff of administrators">
+                <div class="card rules-card" style="width: 18rem;">
+                    <div class="rules-color" [ngStyle]="{'background-color': staff.color}"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ staff.name }}</h5>
+                        <p class="card-text">{{ staff.rol }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row rules-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 rules-separation" *ngFor="let staff of moderators">
+                <div class="card rules-card" style="width: 18rem;">
+                    <div class="rules-color" [ngStyle]="{'background-color': staff.color}"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ staff.name }}</h5>
+                        <p class="card-text">{{ staff.rol }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row rules-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 rules-separation" *ngFor="let staff of supports">
+                <div class="card rules-card" style="width: 18rem;">
+                    <div class="rules-color" [ngStyle]="{'background-color': staff.color}"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ staff.name }}</h5>
+                        <p class="card-text">{{ staff.rol }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
