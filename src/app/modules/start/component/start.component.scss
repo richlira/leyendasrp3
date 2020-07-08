@@ -35,17 +35,15 @@ body,
 }
 
 .slide-content {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   color: white;
   text-shadow: 2px 2px 4px #000000;
-  padding: 0 20px;
+  padding: 50px 20px 0 20px;
 
   @media only screen and (max-width: 1200px) {
-    padding: 0 30px;
+    padding: 40px 30px 0 30px;
   }
 
   &-icons {
@@ -75,6 +73,18 @@ body,
 
     &-insta:hover {
         color: #D5186C;
+    }
+
+    &-face {
+      color: white;
+    }
+
+    &-face:hover {
+      color: blue;
+    }
+
+    @media only screen and (max-width: 640px) {
+      font-size: 70px;
     }
   }
 

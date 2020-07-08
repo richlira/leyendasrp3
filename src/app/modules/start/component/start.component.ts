@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faDiscord, faInstagram } from '@fortawesome/free-brands-svg-icons/';
+import { faDiscord, faInstagram, faFacebook, faFacebookSquare } from '@fortawesome/free-brands-svg-icons/';
 
 @Component({
   selector: 'start-component',
@@ -10,6 +10,5 @@ export class StartComponent  {
 
   faDiscord = faDiscord;
   faInstagram = faInstagram;
-
-
+  faFacebook = faFacebookSquare;
 }
